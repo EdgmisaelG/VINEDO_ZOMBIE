@@ -1,0 +1,15 @@
+CREAR BASE DE DATOS
+
+CREATE DATABASE IF NOT EXISTS viniedo_ancestral
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+
+SELECCIONAR BASE
+
+USE viniedo_ancestral;
+
+
+SESION
+
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
