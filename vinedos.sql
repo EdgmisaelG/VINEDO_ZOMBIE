@@ -8,7 +8,7 @@ CREATE TABLE vinedos (
     clima ENUM('seco', 'templado', 'húmedo', 'mediterráneo', 'continental') DEFAULT 'templado',
     fecha_fundacion DATE DEFAULT (CURRENT_DATE),
     infectado BOOLEAN DEFAULT FALSE,
-    nivel_infeccion TINYINT DEFAULT 0 COMMENT '0-100',
+    nivel_infeccion TINYINT DEFAULT 0 COMMENT '0-100', sadas
     reputacion INT DEFAULT 0,
     coordenadas POINT NULL,
     recursos JSON DEFAULT ('{}'),
